@@ -40,8 +40,8 @@ def read_json(filename, default):
     return r
 
 
-GIT_REPO_URL = "https://github.com/qtumproject/qtum-electrum/"
-GIT_REPO_ISSUES_URL = "https://github.com/qtumproject/qtum-electrum/issues"
+GIT_REPO_URL = "https://github.com/htmlcoin/htmlcoin-electrum/"
+GIT_REPO_ISSUES_URL = "https://github.com/htmlcoin/htmlcoin-electrum/issues"
 BIP39_WALLET_FORMATS = read_json('bip39_wallet_formats.json', [])
 
 
@@ -66,22 +66,22 @@ class AbstractNet:
         return 500 if height < cls.REDUCE_BLOCK_TIME_HEIGHT else 2000
 
 
-class QtumMainnet(AbstractNet):
+class HtmlcoinMainnet(AbstractNet):
 
     TESTNET = False
-    WIF_PREFIX = 0x80
+    WIF_PREFIX = 0xa9
     BITCOIN_ADDRTYPE_P2PKH = 0
     BITCOIN_ADDRTYPE_P2SH = 5
-    ADDRTYPE_P2PKH = 0x3a
-    ADDRTYPE_P2SH = 0x32
-    SEGWIT_HRP = "qc"
-    GENESIS = "000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c"
+    ADDRTYPE_P2PKH = 0x29
+    ADDRTYPE_P2SH = 0x64
+    SEGWIT_HRP = "hc"
+    GENESIS = "0000bf23c6424c270a24a17a3db723361c349e0f966d7b55a6bca4bfb2d951b0"
     GENESIS_BITS = 0x1f00ffff
     DEFAULT_PORTS = {'t': '50001', 's': '50002'}
     DEFAULT_SERVERS = read_json('servers.json', {})
     CHECKPOINTS = read_json('checkpoints.json', {})
     BLOCK_HEIGHT_FIRST_LIGHTNING_CHANNELS = 0
-    HEADERS_URL = 'https://s.qtum.site/electrum_headers'
+    HEADERS_URL = False
 
     POS_NO_RETARGET = False
 
@@ -90,21 +90,21 @@ class QtumMainnet(AbstractNet):
     QIP9_POS_LIMIT = 0x0000000000001fffffffffffffffffffffffffffffffffffffffffffffffffff
     RBT_POS_LIMIT = 0x0000000000003fffffffffffffffffffffffffffffffffffffffffffffffffff
 
-    QIP5_FORK_HEIGHT = 466600
-    QIP9_FORK_HEIGHT = 466600
-    OFFLINE_STAKE_HEIGHT = 680000
-    REDUCE_BLOCK_TIME_HEIGHT = 845000
+    QIP5_FORK_HEIGHT = 1284400
+    QIP9_FORK_HEIGHT = 1284400
+    OFFLINE_STAKE_HEIGHT = 2147483647
+    REDUCE_BLOCK_TIME_HEIGHT = 1284400
 
     LN_REALM_BYTE = 0
     LN_DNS_SEEDS = []
 
-    # for the 88 and 2301 coin type issue, see https://github.com/satoshilabs/slips/pull/196
-    # Qtum official uses 88 as coin type
-    BIP44_COIN_TYPE = 88
-    SLIP_COIN_TYPE = 2301
+    # See https://github.com/satoshilabs/slips/pull/196
+    # Htmlcoin official uses 172 as coin type
+    BIP44_COIN_TYPE = 172
+    SLIP_COIN_TYPE = 172
 
     XPRV_HEADERS = {
-        'standard': 0x0488ade4,
+        'standard': 0x1397bcf3,
         'p2wpkh-p2sh': 0x049d7878,
         'p2wsh-p2sh': 0x295b005,
         'p2wpkh': 0x4b2430c,
@@ -113,7 +113,7 @@ class QtumMainnet(AbstractNet):
     XPRV_HEADERS_INV = inv_dict(XPRV_HEADERS)
 
     XPUB_HEADERS = {
-        'standard': 0x0488b21e,
+        'standard': 0x1397c10d,
         'p2wpkh-p2sh': 0x049d7cb2,
         'p2wsh-p2sh': 0x295b43f,
         'p2wpkh': 0x4b24746,
@@ -122,23 +122,23 @@ class QtumMainnet(AbstractNet):
     XPUB_HEADERS_INV = inv_dict(XPUB_HEADERS)
 
 
-class QtumTestnet(AbstractNet):
+class HtmlcoinTestnet(AbstractNet):
 
     TESTNET = True
     WIF_PREFIX = 0xef
     BITCOIN_ADDRTYPE_P2PKH = 111
     BITCOIN_ADDRTYPE_P2SH = 196
-    ADDRTYPE_P2PKH = 120
+    ADDRTYPE_P2PKH = 100
     ADDRTYPE_P2SH = 110
     SEGWIT_HRP = "tq"
-    GENESIS = "0000e803ee215c0684ca0d2f9220594d3f828617972aad66feb2ba51f5e14222"
+    GENESIS = "9920f63f4fe6d1ee164b0313f702405d790440357b4cfd7e9242a960ac16275b"
     GENESIS_BITS = 0x1f00ffff
     DEFAULT_PORTS = {'t': '51001', 's': '51002'}
     DEFAULT_SERVERS = read_json('servers_testnet.json', {})
     CHECKPOINTS = read_json('checkpoints_testnet.json', {})
     BIP44_COIN_TYPE = 1
     SLIP_COIN_TYPE = 1
-    HEADERS_URL = 'https://s.qtum.site/electrum_testnet_headers'
+    HEADERS_URL = False
 
     POS_NO_RETARGET = False
 
@@ -147,9 +147,9 @@ class QtumTestnet(AbstractNet):
     QIP9_POS_LIMIT = 0x0000000000001fffffffffffffffffffffffffffffffffffffffffffffffffff
     RBT_POS_LIMIT = 0x0000000000003fffffffffffffffffffffffffffffffffffffffffffffffffff
 
-    QIP5_FORK_HEIGHT = 446320
-    QIP9_FORK_HEIGHT = 446320
-    OFFLINE_STAKE_HEIGHT = 625000
+    QIP5_FORK_HEIGHT = 2147483647
+    QIP9_FORK_HEIGHT = 2147483647
+    OFFLINE_STAKE_HEIGHT = 2147483647
     REDUCE_BLOCK_TIME_HEIGHT = 806600
 
     LN_REALM_BYTE = 0
@@ -174,10 +174,10 @@ class QtumTestnet(AbstractNet):
     XPUB_HEADERS_INV = inv_dict(XPUB_HEADERS)
 
 
-class QtumRegtest(QtumTestnet):
+class HtmlcoinRegtest(HtmlcoinTestnet):
 
     SEGWIT_HRP = "qcrt"
-    GENESIS = "665ed5b402ac0b44efc37d8926332994363e8a7278b7ee9a58fb972efadae943"
+    GENESIS = "03c80d2399e1fe481a51e122ac55159a4e5fe635494a7fd368f3e440241fccb2"
     DEFAULT_SERVERS = read_json('servers_regtest.json', {})
     CHECKPOINTS = {}
     HEADERS_URL = None
@@ -195,19 +195,19 @@ class QtumRegtest(QtumTestnet):
 
 
 # don't import net directly, import the module instead (so that net is singleton)
-net = QtumMainnet
+net = HtmlcoinMainnet
 
 
 def set_mainnet():
     global net
-    net = QtumMainnet
+    net = HtmlcoinMainnet
 
 
 def set_testnet():
     global net
-    net = QtumTestnet
+    net = HtmlcoinTestnet
 
 
 def set_regtest():
     global net
-    net = QtumRegtest
+    net = HtmlcoinRegtest

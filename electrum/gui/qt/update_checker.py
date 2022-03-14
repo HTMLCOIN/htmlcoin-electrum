@@ -20,12 +20,12 @@ from electrum.network import Network
 
 
 class UpdateCheck(QDialog, Logger):
-    url = "https://api.github.com/repos/qtumproject/qtum-electrum/releases/latest"
-    download_url = "https://github.com/qtumproject/qtum-electrum/releases/latest"
+    url = "https://api.github.com/repos/HTMLCOIN/htmlcoin-electrum/releases/latest"
+    download_url = "https://github.com/HTMLCOIN/htmlcoin-electrum/releases/latest"
 
     def __init__(self, *, latest_version=None):
         QDialog.__init__(self)
-        self.setWindowTitle('Qtum Electrum - ' + _('Update Check'))
+        self.setWindowTitle('Htmlcoin Electrum - ' + _('Update Check'))
         self.content = QVBoxLayout()
         self.content.setContentsMargins(*[10] * 4)
 
