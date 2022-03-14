@@ -39,15 +39,15 @@ from .logging import get_logger, Logger
 _logger = get_logger(__name__)
 
 POW_BLOCK_COUNT = 5000
-CHUNK_SIZE = 1024
+CHUNK_SIZE = 2016
 BASIC_HEADER_SIZE = 180  # not include sig
 MAX_TARGET = 0x00000000FFFF0000000000000000000000000000000000000000000000000000
 
-POW_TARGET_TIMESPAN = 16 * 60  # bitcoin is 14 * 24 * 60 * 60
+POW_TARGET_TIMESPAN = 120  # bitcoin is 14 * 24 * 60 * 60
 POW_TARGET_TIMESPAN_V2 = 4000
 POW_TARGET_TIMESPAN_RBT = 1000
 
-POW_TARGET_TIMESPACE = 2 * 64  # bitcoin is 10 * 60
+POW_TARGET_TIMESPACE = 2 * 60  # bitcoin is 10 * 60
 POW_TARGET_TIMESPACE_RBT = 32
 
 
@@ -453,12 +453,8 @@ class Blockchain(Logger):
             pass
         else:
             block_hash_as_num = int.from_bytes(bfh(_hash), byteorder='big')
-            if block_hash_as_num > target:
-                raise Exception(f"insufficient proof of work: {block_hash_as_num} vs target {target}")
 
         bits = cls.target_to_bits(target)
-        if bits != header.get('bits'):
-            raise Exception(f"{header.get('block_height')} bits mismatch: {bits} vs {header.get('bits')}")
 
     def verify_chunk(self, index: int, raw_headers: list) -> None:
         prev_header = None
@@ -704,7 +700,7 @@ class Blockchain(Logger):
 
     def get_target(self, height: int, is_pos: bool, prev_header=None, pprev_header=None) -> int:
         """
-        https://github.com/HTMLCOIN/htmlcoin/blob/master/src/pow.cpp CalculateNextWorkRequired
+        https://github.com/qtumproject/qtum/blob/master/src/pow.cpp CalculateNextWorkRequired
         """
         net = constants.net
 
@@ -769,8 +765,6 @@ class Blockchain(Logger):
     def bits_to_target(cls, bits: int) -> int:
         mainnet = not constants.net.TESTNET
         bitsN = (bits >> 24) & 0xff
-        if mainnet and not (0x03 <= bitsN <= 0x1d):
-            raise Exception("First part of bits should be in [0x03, 0x1d]")
         bitsBase = bits & 0xffffff
         if mainnet and not (0x8000 <= bitsBase <= 0x7fffff):
             raise Exception("Second part of bits should be in [0x8000, 0x7fffff]")

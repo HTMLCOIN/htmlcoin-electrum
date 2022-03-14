@@ -1,25 +1,25 @@
 {
   "dev.htmlcoin.com": {
     "pruning": "-",
-    "t": "50002",
+    "t": "50001",
     "s": "50002",
     "version": "1.4"
   },
   "pay.htmlcoin.com": {
     "pruning": "-",
-    "t": "50002",
+    "t": "50001",
     "s": "50002",
     "version": "1.4"
   },
   "info.htmlcoin.com": {
     "pruning": "-",
-    "t": "50002",
+    "t": "50001",
     "s": "50002",
     "version": "1.4"
   },
   "explorer.htmlcoin.com": {
     "pruning": "-",
-    "t": "50002",
+    "t": "50001",
     "s": "50002",
     "version": "1.4"
   }
