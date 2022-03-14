@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME_ROOT=Qtum-electrum
+NAME_ROOT=Htmlcoin-electrum
 
 # These settings probably don't need any change
 export WINEPREFIX=/opt/wine64
@@ -116,4 +116,4 @@ EOF
     done
 )
 
-sha256sum dist/Qtum-electrum*.exe
+sha256sum dist/Htmlcoin-electrum*.exe

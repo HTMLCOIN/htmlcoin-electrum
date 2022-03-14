@@ -1,7 +1,25 @@
 {
-  "dev.htmlcoin.com/electrumx": {
+  "dev.htmlcoin.com": {
     "pruning": "-",
-    "t": "50001",
+    "t": "50002",
+    "s": "50002",
+    "version": "1.4"
+  },
+  "pay.htmlcoin.com": {
+    "pruning": "-",
+    "t": "50002",
+    "s": "50002",
+    "version": "1.4"
+  },
+  "info.htmlcoin.com": {
+    "pruning": "-",
+    "t": "50002",
+    "s": "50002",
+    "version": "1.4"
+  },
+  "explorer.htmlcoin.com": {
+    "pruning": "-",
+    "t": "50002",
     "s": "50002",
     "version": "1.4"
   }
