@@ -81,7 +81,7 @@ class HtmlcoinMainnet(AbstractNet):
     DEFAULT_SERVERS = read_json('servers.json', {})
     CHECKPOINTS = read_json('checkpoints.json', {})
     BLOCK_HEIGHT_FIRST_LIGHTNING_CHANNELS = 0
-    HEADERS_URL = None
+    HEADERS_URL = 'https://doc-0k-04-docs.googleusercontent.com/docs/securesc/8sgi4uaueeoekll364trns1uoc4kf4av/cbh69jffuqkg6im0hvsvtipo21bvluip/1647286725000/05668888983424541093/05668888983424541093/1zDh-F_xI4TPJXgkWIbW53H-jxMnx8mRs?e=download&ax=ACxEAsa1bIzVv5xBzb1Ae_DhMY_03hjeau42q1zvzOW4tZrO1O6LV249jmxD2rW3tc50M3V81ZSvW4iiPbednXDa3BSTSKayBOz12PT1SbrZyinqvRm73tZpQTFuYom7-F2mXnVopyK4aXlbUwKmNUokPpLB6bljtHY2pRgK6EWFtXPuTqh1pDK1u-fjycydtxNT46M9YG1wFEmAF1T5JvzQ378eYFEr-RZl1wjnSAyKGPwubZYBOMNglKDbdUPPb3oJXHDoWpryBwUrywk0fg-Uk7ZRD1-JN5fmnqf4cH0YJAPLGKUw29TBTXkaapVL5vCc5GXWYTzpKUKILk2N8ZNnmjoL1D4_txZ1R5CqZQ_bat2ayMjUaLBAbEv-PrXETE_ueUDQ1s5QaJF46tk5WW_cckSLAs9xvNuLXlFgwndQub145Q1a7WNy-4gxpQG1MnIwroWy9HmWTgjelshMbk1oZ8K92iBMBXKSR-aQhxpT6mNp-exbuq6pUF3IJOtKaYbpUoFoFCwPYGJ3X3bHcLDB4SsdaQXhxjejfdEX6ng6HqLbKz0TaNMTOE2Sb0u-_AKwpDLVNE9-Ct94mqO5N3bpCqZaea3_yRHRMBOb0a-RDKb0Q7r-uJQ05wLlJap-TWL6YOG0YZmOa9k2l-4ZI1QYNuN1JYWcJdzQX5UIxEr-&authuser=0&nonce=nnfpquqn45clo&user=05668888983424541093&hash=ih4gbq3j1mss968l4u6lsibdtakpie1a'
 
     POS_NO_RETARGET = False
 

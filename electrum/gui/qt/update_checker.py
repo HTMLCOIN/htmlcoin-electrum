@@ -20,8 +20,8 @@ from electrum.network import Network
 
 
 class UpdateCheck(QDialog, Logger):
-    url = "https://api.github.com/repos/HTMLCOIN/htmlcoin-electrum/releases/latest"
-    download_url = "https://github.com/HTMLCOIN/htmlcoin-electrum/releases/latest"
+    url = "https://api.github.com/repos/denuoweb/htmlcoin-electrum/releases/latest"
+    download_url = "https://github.com/denuoweb/htmlcoin-electrum/releases/latest"
 
     def __init__(self, *, latest_version=None):
         QDialog.__init__(self)
