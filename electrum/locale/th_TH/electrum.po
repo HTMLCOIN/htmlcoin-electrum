@@ -1046,7 +1046,7 @@ msgstr "เลือกบัญชีที่จะกู้คืน"
 
 #: electrum/gui/qt/settings_dialog.py:328
 msgid "Choose coin (UTXO) selection method.  The following are available:\n\n"
-msgstr "เลือกเหรียญ (UTXO) วิธีการเลือก. มีดังต่อไปนี้: \\ n \\ n"
+msgstr "เลือกเหรียญ (UTXO) วิธีการเลือก. มีดังต่อไปนี้:\n\n"
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:30
 msgid "Choose from peers"
@@ -7076,4 +7076,3 @@ msgstr ""
 #: electrum/plugins/keepkey/qt.py:245
 msgid "{} words"
 msgstr ""
-

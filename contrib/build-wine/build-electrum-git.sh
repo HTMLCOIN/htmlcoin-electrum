@@ -31,15 +31,11 @@ if ! which msgfmt > /dev/null 2>&1; then
     fail "Please install gettext"
 fi
 for i in ./*; do
-    dir=$WINEPREFIX/drive_c/electrum/electrum/locale/$i/LC_MESSAGES
+    dir=$WINEPREFIX/drive_c/electrum/locale/$i/LC_MESSAGES
     mkdir -p $dir
     msgfmt --output-file=$dir/electrum.mo $i/electrum.po || true
 done
 popd
-
-find -exec touch -d '2000-11-11T11:11:11+00:00' {} +
-popd
-
 
 # Install frozen dependencies
 $PYTHON -m pip install --no-dependencies --no-warn-script-location -r "$CONTRIB"/deterministic-build/requirements.txt
@@ -59,7 +55,7 @@ rm -rf dist/
 
 # build standalone and portable versions
 info "Running pyinstaller..."
-wine "$PYHOME/scripts/pyinstaller.exe" --noconfirm --ascii --clean --name $NAME_ROOT-$VERSION -w deterministic.spec
+wine "$PYHOME/scripts/pyinstaller.exe" --noconfirm --ascii --clean --name $NAME_ROOT-$VERSION -w contrib/build-wine/deterministic.spec
 
 # set timestamps in dist, in order to make the installer reproducible
 pushd dist

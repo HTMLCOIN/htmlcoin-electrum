@@ -1,6 +1,7 @@
 AUTHORS
+LICENSE
 MANIFEST.in
-README.rst
+README.md
 RELEASE-NOTES
 electrum.desktop
 run_electrum
@@ -71,6 +72,8 @@ electrum/interface.py
 electrum/invoices.py
 electrum/json_db.py
 electrum/keystore.py
+electrum/libsecp256k1-0.dll
+electrum/libzbar-0.dll
 electrum/lnaddr.py
 electrum/lnchannel.py
 electrum/lnhtlc.py
@@ -404,6 +407,7 @@ electrum/gui/qt/watchtower_dialog.py
 electrum/lnwire/README.md
 electrum/lnwire/onion_wire.csv
 electrum/lnwire/peer_wire.csv
+electrum/locale/messages.pot
 electrum/locale/ar_SA/electrum.po
 electrum/locale/ar_SA/LC_MESSAGES/electrum.mo
 electrum/locale/be_BY/electrum.po

@@ -440,8 +440,7 @@ msgstr "Сума для виходу OP_RETURN повинна бути нуль�
 
 #: electrum/gui/qt/transaction_dialog.py:557
 msgid "Amount received in channels"
-msgstr "\n"
-"Сума, отримана в каналах"
+msgstr "Сума, отримана в каналах"
 
 #: electrum/gui/qt/transaction_dialog.py:507
 msgid "Amount received:"
@@ -7090,4 +7089,3 @@ msgstr ""
 #: electrum/plugins/keepkey/qt.py:245
 msgid "{} words"
 msgstr "{} слова"
-

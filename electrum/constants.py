@@ -131,7 +131,7 @@ class HtmlcoinTestnet(AbstractNet):
     ADDRTYPE_P2PKH = 100
     ADDRTYPE_P2SH = 110
     SEGWIT_HRP = "tq"
-    GENESIS = "9920f63f4fe6d1ee164b0313f702405d790440357b4cfd7e9242a960ac16275b"
+    GENESIS = "000013694772f8aeb88efeb2829fe5d71fbca3e23d5043baa770726f204f528c"
     GENESIS_BITS = 0x1f00ffff
     DEFAULT_PORTS = {'t': '51001', 's': '51002'}
     DEFAULT_SERVERS = read_json('servers_testnet.json', {})
