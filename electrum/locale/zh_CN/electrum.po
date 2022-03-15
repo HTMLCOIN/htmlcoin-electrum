@@ -2536,7 +2536,7 @@ msgid "Library version for '{}' is incompatible."
 msgstr "“{}”的库版本不兼容。"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:19
-msgid "Licence"
+msgid "License"
 msgstr "授权条款"
 
 #: electrum/gui/qt/main_window.py:3017

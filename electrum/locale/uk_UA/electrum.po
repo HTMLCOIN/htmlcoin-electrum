@@ -349,7 +349,7 @@ msgstr "Вже оновлено"
 
 #: electrum/gui/qt/main_window.py:1291
 msgid "Also, dust is not kept as change, but added to the fee."
-msgstr "Дуже мала вхідна сума Bitcoin (dust) не зберігається, але додається до комісійної винагороди."
+msgstr "Дуже мала вхідна сума Htmlcoin (dust) не зберігається, але додається до комісійної винагороди."
 
 #: electrum/gui/qt/main_window.py:1292
 msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
@@ -534,20 +534,20 @@ msgid "Bit rate [kbps]: "
 msgstr "Бітрейт [кБ/с]: "
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:71
-msgid "Bitcoin Address"
+msgid "Htmlcoin Address"
 msgstr "Біткойн адреса"
 
 #: electrum/gui/qt/main_window.py:1630
-msgid "Bitcoin Address is None"
-msgstr "Bitcoin-адреса не визначена"
+msgid "Htmlcoin Address is None"
+msgstr "Htmlcoin-адреса не визначена"
 
 #: electrum/gui/qt/main_window.py:906
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Адреса Bitcoin, на який повинен бути отриманий платіж. Зверніть увагу, що кожен запит платежу використовує іншу Bitcoin адресу."
+msgid "Htmlcoin address where the payment should be received. Note that each payment request uses a different Htmlcoin address."
+msgstr "Адреса Htmlcoin, на який повинен бути отриманий платіж. Зверніть увагу, що кожен запит платежу використовує іншу Htmlcoin адресу."
 
 #: electrum/gui/qt/main_window.py:1226
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Транзакції Bitcoin зазвичай не безкоштовні. Комісія за транзакцію оплачується тим, хто пересилає кошти."
+msgid "Htmlcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Транзакції Htmlcoin зазвичай не безкоштовні. Комісія за транзакцію оплачується тим, хто пересилає кошти."
 
 #: electrum/gui/qt/network_dialog.py:321
 #: electrum/gui/kivy/uix/ui_screens/network.kv:47
@@ -1243,7 +1243,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Помилка зв'язку пристрою. Будь ласка, відключіть і знову підключіть ваш Digital Bitbox."
 
 #: electrum/plugins/ledger/ledger.py:205
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Htmlcoin mode"
 msgstr "Пристрій не в режимі Біткойн"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1429,7 +1429,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum не вдалося експортувати транзакцію."
 
 #: electrum/gui/qt/main_window.py:656
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Htmlcoin."
 msgstr ""
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -1557,8 +1557,8 @@ msgid "Enter a label to name your device:"
 msgstr "Введіть назву мітки для вашого пристрою:"
 
 #: electrum/base_wizard.py:207
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Введіть список адрес Bitcoin (це створить гаманець тільки для спостереження) або список приватних ключів."
+msgid "Enter a list of Htmlcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Введіть список адрес Htmlcoin (це створить гаманець тільки для спостереження) або список приватних ключів."
 
 #: electrum/gui/qt/main_window.py:1971
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -1799,8 +1799,8 @@ msgid "Expired"
 msgstr "Термін дії закінчився"
 
 #: electrum/gui/qt/main_window.py:937
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Минулі запити повинні бути видалені вручну з вашого списку, щоб звільнити відповідні адреси Bitcoin."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Htmlcoin addresses."
+msgstr "Минулі запити повинні бути видалені вручну з вашого списку, щоб звільнити відповідні адреси Htmlcoin."
 
 #: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2034
 msgid "Expires"
@@ -1926,8 +1926,8 @@ msgid "Firmware Version"
 msgstr "Версія прошивки"
 
 #: electrum/plugins/ledger/ledger.py:39
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Версія вбудованого програмного забезпечення (або програма Bitcoin) занадто стара для підтримки Segwit. Будь ласка, оновіть її на"
+msgid "Firmware version (or \"Htmlcoin\" app) too old for Segwit support. Please update at"
+msgstr "Версія вбудованого програмного забезпечення (або програма Htmlcoin) занадто стара для підтримки Segwit. Будь ласка, оновіть її на"
 
 #: electrum/plugins/trezor/qt.py:289
 msgid "Firmware version too old."
@@ -2218,12 +2218,12 @@ msgid "Import"
 msgstr "Імпортувати"
 
 #: electrum/base_wizard.py:206
-msgid "Import Bitcoin Addresses"
+msgid "Import Htmlcoin Addresses"
 msgstr "Імпортувати біткойн-адреси"
 
 #: electrum/base_wizard.py:134
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Імпортувати Bitcoin-адреси або закриті ключі"
+msgid "Import Htmlcoin addresses or private keys"
+msgstr "Імпортувати Htmlcoin-адреси або закриті ключі"
 
 #: electrum/gui/qt/main_window.py:577 electrum/gui/qt/main_window.py:2790
 msgid "Import addresses"
@@ -2360,17 +2360,17 @@ msgstr "Невірна сума"
 
 #: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1633
 #: electrum/gui/kivy/uix/screens.py:265
-msgid "Invalid Bitcoin Address"
-msgstr "Невірна адреса Bitcoin"
+msgid "Invalid Htmlcoin Address"
+msgstr "Невірна адреса Htmlcoin"
 
 #: electrum/gui/text.py:342 electrum/gui/stdio.py:173
-msgid "Invalid Bitcoin address"
-msgstr "Некоректна адреса Bitcoin"
+msgid "Invalid Htmlcoin address"
+msgstr "Некоректна адреса Htmlcoin"
 
 #: electrum/wallet.py:1254 electrum/gui/qt/main_window.py:2344
 #: electrum/gui/qt/main_window.py:2372
-msgid "Invalid Bitcoin address."
-msgstr "Некоректна адреса Bitcoin."
+msgid "Invalid Htmlcoin address."
+msgstr "Некоректна адреса Htmlcoin."
 
 #: electrum/gui/text.py:352 electrum/gui/stdio.py:183
 msgid "Invalid Fee"
@@ -2538,7 +2538,7 @@ msgid "Library version for '{}' is incompatible."
 msgstr "Версія бібліотеки для '{}' несумісна."
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:19
-msgid "Licence"
+msgid "License"
 msgstr "Ліцензія"
 
 #: electrum/gui/qt/main_window.py:3017
@@ -2591,7 +2591,7 @@ msgstr "Переконайтеся, що ви встановили його за
 
 #: electrum/gui/qt/main_window.py:468
 msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Переконайтеся, що у вас є кодова фраза чи закритий ключ, перш ніж запитувати Bitcoin для відправлення в цей гаманець."
+msgstr "Переконайтеся, що у вас є кодова фраза чи закритий ключ, перш ніж запитувати Htmlcoin для відправлення в цей гаманець."
 
 #: electrum/plugins/coldcard/qt.py:154
 msgid "Master Fingerprint"
@@ -3231,8 +3231,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Будь ласка, збережіть ці {0} слів на папері (порядок важливий). "
 
 #: electrum/gui/kivy/uix/screens.py:262
-msgid "Please scan a Bitcoin address or a payment request"
-msgstr "Будь-ласка, відскануйте адресу Bitcoin або запит на оплату"
+msgid "Please scan a Htmlcoin address or a payment request"
+msgstr "Будь-ласка, відскануйте адресу Htmlcoin або запит на оплату"
 
 #: electrum/plugin.py:557
 msgid "Please select which {} device to use:"
@@ -3898,8 +3898,8 @@ msgid "Settings"
 msgstr "Налаштування"
 
 #: electrum/gui/kivy/uix/screens.py:394
-msgid "Share Bitcoin Request"
-msgstr "Поділіться Bitcoin-запитом"
+msgid "Share Htmlcoin Request"
+msgstr "Поділіться Htmlcoin-запитом"
 
 #: electrum/gui/kivy/uix/screens.py:277
 msgid "Should this transaction be replaceable?"
@@ -4083,7 +4083,7 @@ msgid "Start"
 msgstr "Старт"
 
 #: electrum/gui/qt/main_window.py:659
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Htmlcoin system."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2870
@@ -4166,8 +4166,8 @@ msgid "Testnet coins are worthless."
 msgstr "Монети Testnet нічого не варті."
 
 #: electrum/gui/qt/main_window.py:485
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "Мережа Testnet є відокремленою від основної мережі Bitcoin. Використовується для тестування."
+msgid "Testnet is separate from the main Htmlcoin network. It is used for testing."
+msgstr "Мережа Testnet є відокремленою від основної мережі Htmlcoin. Використовується для тестування."
 
 #: electrum/gui/qt/util.py:662
 msgid "Text copied to clipboard"
@@ -4208,7 +4208,7 @@ msgstr "Сума буде відображатися червоним кольо
 
 #: electrum/gui/qt/main_window.py:938
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "Термін дії адреси Bitcoin ніколи не закінчиться, і завжди буде частиною цього Electrum-гаманця."
+msgstr "Термін дії адреси Htmlcoin ніколи не закінчиться, і завжди буде частиною цього Electrum-гаманця."
 
 #: electrum/gui/qt/main_window.py:1191
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -4575,7 +4575,7 @@ msgstr "Транзакція додана в історію гаманця."
 
 #: electrum/network.py:896
 msgid "Transaction could not be broadcast due to dust outputs."
-msgstr "Транзакцію неможливо транслювати через надто малу вихідну суму монет Bitcoin (dust)."
+msgstr "Транзакцію неможливо транслювати через надто малу вихідну суму монет Htmlcoin (dust)."
 
 #: electrum/gui/qt/main_window.py:3471
 msgid "Transaction could not be saved."
@@ -5182,8 +5182,8 @@ msgid "You may also save unsigned requests or contact addresses using the save b
 msgstr "Ви також можете зберегти непідписані запити або контактні адреси за допомогою кнопки збереження."
 
 #: electrum/gui/qt/main_window.py:1180
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Ви можете вказати Bitcoin-адреса, мітку з вашої адресної книги (буде показаний список з автодоповненням) або псевдонім (адреси, схожі на e-mail, пов'язану з адресою Bitcoin)"
+msgid "You may enter a Htmlcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Htmlcoin address)"
+msgstr "Ви можете вказати Htmlcoin-адреса, мітку з вашої адресної книги (буде показаний список з автодоповненням) або псевдонім (адреси, схожі на e-mail, пов'язану з адресою Htmlcoin)"
 
 #: electrum/base_wizard.py:435
 msgid "You may extend your seed with custom words."

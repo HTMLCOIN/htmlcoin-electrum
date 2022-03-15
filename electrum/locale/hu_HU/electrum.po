@@ -534,20 +534,20 @@ msgid "Bit rate [kbps]: "
 msgstr "Bitráta [kbps]: "
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:71
-msgid "Bitcoin Address"
-msgstr "Bitcoin cím"
+msgid "Htmlcoin Address"
+msgstr "Htmlcoin cím"
 
 #: electrum/gui/qt/main_window.py:1630
-msgid "Bitcoin Address is None"
+msgid "Htmlcoin Address is None"
 msgstr "Ez a cím nem létezik"
 
 #: electrum/gui/qt/main_window.py:906
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Bitcoin cím, ahova fogadni szeretnéd a fizetési kérelmet. Ne feledd, minden fizetési kérelem más Bitcoin-címet használ."
+msgid "Htmlcoin address where the payment should be received. Note that each payment request uses a different Htmlcoin address."
+msgstr "Htmlcoin cím, ahova fogadni szeretnéd a fizetési kérelmet. Ne feledd, minden fizetési kérelem más Htmlcoin-címet használ."
 
 #: electrum/gui/qt/main_window.py:1226
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "A Bitcoin tranzakciók nem ingyenesek. A tranzakciós díjat a pénz küldője fizeti ki."
+msgid "Htmlcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "A Htmlcoin tranzakciók nem ingyenesek. A tranzakciós díjat a pénz küldője fizeti ki."
 
 #: electrum/gui/qt/network_dialog.py:321
 #: electrum/gui/kivy/uix/ui_screens/network.kv:47
@@ -1030,7 +1030,7 @@ msgstr "Másolás és bezárás"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:36
 msgid "Copy and paste the recipient address using the Paste button, or use the camera to scan a QR code."
-msgstr "Illeszd be a címzett Bitcoin címét a Beillesztés gomb segítségével, vagy használd a fényképezőgépet egy QR-kód beolvasásához."
+msgstr "Illeszd be a címzett Htmlcoin címét a Beillesztés gomb segítségével, vagy használd a fényképezőgépet egy QR-kód beolvasásához."
 
 #: electrum/gui/qt/util.py:658
 msgid "Copy to clipboard"
@@ -1243,8 +1243,8 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Eszközkommunikációs hiba. Kérjük, húzd ki és dugd be újra a Digital Bitbox-ot."
 
 #: electrum/plugins/ledger/ledger.py:205
-msgid "Device not in Bitcoin mode"
-msgstr "Az eszköz nem Bitcoin üzemmódban van"
+msgid "Device not in Htmlcoin mode"
+msgstr "Az eszköz nem Htmlcoin üzemmódban van"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
@@ -1378,11 +1378,11 @@ msgstr "Electrum Pluginek"
 msgid "Electrum cannot pair with your {}.\n\n"
 "Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
 msgstr "Az Electrum nem tudott megfelelően kapcsolódni az eszközhöz ({}).\n\n"
-"Mielőtt bármit is küldenél/fogadnál az ebben a pénztárcában lévő címekre, bizonyosodj meg róla, hogy képes vagy megfelelően kapcsolódni az eszközhöz, vagy hogy birtoklod a pénztárca magját (illetve a mag kiterjesztését/jelszavát, ha van). Kizárólag ekkor tudod majd elkölteni a Bitcoinjaid. Ellenkező esetben az összes fogadott Bitcoin elveszik (elkölthetetlen lesz)."
+"Mielőtt bármit is küldenél/fogadnál az ebben a pénztárcában lévő címekre, bizonyosodj meg róla, hogy képes vagy megfelelően kapcsolódni az eszközhöz, vagy hogy birtoklod a pénztárca magját (illetve a mag kiterjesztését/jelszavát, ha van). Kizárólag ekkor tudod majd elkölteni a Bitcoinjaid. Ellenkező esetben az összes fogadott Htmlcoin elveszik (elkölthetetlen lesz)."
 
 #: electrum/gui/qt/installwizard.py:596
 msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Az Electrum távoli szerverekről kérdezi le a Bitcoin címekkel és tranzakciókkal kapcsolatos információkat. A szerverek mindnyájan ugyanazt a célt szolgálják, és kizárólag hardverben különböznek. Általában elég az Electrumra bízni, hogy véletlenszerűen válasszon egyet. Ám ha szeretnél, manuálisan is választhatsz szervert."
+msgstr "Az Electrum távoli szerverekről kérdezi le a Htmlcoin címekkel és tranzakciókkal kapcsolatos információkat. A szerverek mindnyájan ugyanazt a célt szolgálják, és kizárólag hardverben különböznek. Általában elég az Electrumra bízni, hogy véletlenszerűen válasszon egyet. Ám ha szeretnél, manuálisan is választhatsz szervert."
 
 #: electrum/gui/qt/network_dialog.py:305
 msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
@@ -1429,7 +1429,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Az Electrum nem tudja exportálni a tranzakciót."
 
 #: electrum/gui/qt/main_window.py:656
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Htmlcoin."
 msgstr ""
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -1557,12 +1557,12 @@ msgid "Enter a label to name your device:"
 msgstr "Adj meg egy címkét a készülék elnevezéséhez:"
 
 #: electrum/base_wizard.py:207
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Adj meg Bitcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
+msgid "Enter a list of Htmlcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Adj meg Htmlcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
 
 #: electrum/gui/qt/main_window.py:1971
 msgid "Enter a list of outputs in the 'Pay to' field."
-msgstr "Írd be a Bitcoin címeket a \"Pénzküldés ide\" mezőbe."
+msgstr "Írd be a Htmlcoin címeket a \"Pénzküldés ide\" mezőbe."
 
 #: electrum/plugins/trezor/clientbase.py:242
 #: electrum/plugins/keepkey/clientbase.py:48
@@ -1799,8 +1799,8 @@ msgid "Expired"
 msgstr "Lejárt"
 
 #: electrum/gui/qt/main_window.py:937
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "A lejárt kérelmeket kézzel kell kitörölnöd, ha fel szeretnéd szabadítani a hozzájuk tartozó Bitcoin címeket."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Htmlcoin addresses."
+msgstr "A lejárt kérelmeket kézzel kell kitörölnöd, ha fel szeretnéd szabadítani a hozzájuk tartozó Htmlcoin címeket."
 
 #: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2034
 msgid "Expires"
@@ -1926,8 +1926,8 @@ msgid "Firmware Version"
 msgstr "Firmware-verzió"
 
 #: electrum/plugins/ledger/ledger.py:39
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Az eszköz firmware-je (vagy a \"Bitcoin\" alkalmazás) túl régi, a Segwit-et nem támogatja. Kérjük frissítsd:"
+msgid "Firmware version (or \"Htmlcoin\" app) too old for Segwit support. Please update at"
+msgstr "Az eszköz firmware-je (vagy a \"Htmlcoin\" alkalmazás) túl régi, a Segwit-et nem támogatja. Kérjük frissítsd:"
 
 #: electrum/plugins/trezor/qt.py:289
 msgid "Firmware version too old."
@@ -2218,12 +2218,12 @@ msgid "Import"
 msgstr "Importálás"
 
 #: electrum/base_wizard.py:206
-msgid "Import Bitcoin Addresses"
-msgstr "Bitcoin címek importálása"
+msgid "Import Htmlcoin Addresses"
+msgstr "Htmlcoin címek importálása"
 
 #: electrum/base_wizard.py:134
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Bitcoin címek vagy privát kulcsok importálása"
+msgid "Import Htmlcoin addresses or private keys"
+msgstr "Htmlcoin címek vagy privát kulcsok importálása"
 
 #: electrum/gui/qt/main_window.py:577 electrum/gui/qt/main_window.py:2790
 msgid "Import addresses"
@@ -2360,17 +2360,17 @@ msgstr "Érvénytelen összeg"
 
 #: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1633
 #: electrum/gui/kivy/uix/screens.py:265
-msgid "Invalid Bitcoin Address"
-msgstr "Érvénytelen Bitcoin cím"
+msgid "Invalid Htmlcoin Address"
+msgstr "Érvénytelen Htmlcoin cím"
 
 #: electrum/gui/text.py:342 electrum/gui/stdio.py:173
-msgid "Invalid Bitcoin address"
-msgstr "Érvénytelen Bitcoin cím"
+msgid "Invalid Htmlcoin address"
+msgstr "Érvénytelen Htmlcoin cím"
 
 #: electrum/wallet.py:1254 electrum/gui/qt/main_window.py:2344
 #: electrum/gui/qt/main_window.py:2372
-msgid "Invalid Bitcoin address."
-msgstr "Érvénytelen Bitcoin cím."
+msgid "Invalid Htmlcoin address."
+msgstr "Érvénytelen Htmlcoin cím."
 
 #: electrum/gui/text.py:352 electrum/gui/stdio.py:183
 msgid "Invalid Fee"
@@ -2427,7 +2427,7 @@ msgstr "Számlák"
 
 #: electrum/gui/qt/installwizard.py:34
 msgid "It also contains your master public key that allows watching your addresses."
-msgstr "Továbbá tartalmazza még a nyilvános mesterkulcsot is, ami segítségével figyelheted a Bitcoin-címeid."
+msgstr "Továbbá tartalmazza még a nyilvános mesterkulcsot is, ami segítségével figyelheted a Htmlcoin-címeid."
 
 #: electrum/gui/qt/main_window.py:2580
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
@@ -2459,7 +2459,7 @@ msgstr "KeepKey pénztárca"
 
 #: electrum/gui/qt/main_window.py:1206
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
-msgstr "Gyorsbillentyű: ! (felkiáltójel) beírásával az összes elérhető Bitcoin mennyiség beíródik a mezőbe."
+msgstr "Gyorsbillentyű: ! (felkiáltójel) beírásával az összes elérhető Htmlcoin mennyiség beíródik a mezőbe."
 
 #: electrum/base_wizard.py:183
 msgid "Keystore"
@@ -2538,7 +2538,7 @@ msgid "Library version for '{}' is incompatible."
 msgstr "A(z) '{}' programkönyvtár verziója nem kompatibilis."
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:19
-msgid "Licence"
+msgid "License"
 msgstr "Licensz"
 
 #: electrum/gui/qt/main_window.py:3017
@@ -2953,7 +2953,7 @@ msgstr "Csak egy szerverhez csatlakozzon"
 #: electrum/plugins/trezor/qt.py:607 electrum/plugins/keepkey/qt.py:550
 #: electrum/plugins/safe_t/qt.py:480
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
-msgstr "Kizárólag akkor töröld az eszközt, ha a visszaállításhoz szükséges magot már leírtad, és az eszközön lévő pénztárcák üresek. Ellenkező esetben az eszközön lévő összes Bitcoin elveszik."
+msgstr "Kizárólag akkor töröld az eszközt, ha a visszaállításhoz szükséges magot már leírtad, és az eszközön lévő pénztárcák üresek. Ellenkező esetben az eszközön lévő összes Htmlcoin elveszik."
 
 #: electrum/plugins/revealer/qt.py:732
 msgid "Open calibration pdf"
@@ -3231,8 +3231,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Írd le ezt a {0} szót egy papírra (a sorrend is fontos). Ezekere a szavakra a továbbiakban \"mag\"-ként hivatkozunk. "
 
 #: electrum/gui/kivy/uix/screens.py:262
-msgid "Please scan a Bitcoin address or a payment request"
-msgstr "Kérjük szkennelj be egy Bitcoin címet, vagy egy fizetési kérelmet"
+msgid "Please scan a Htmlcoin address or a payment request"
+msgstr "Kérjük szkennelj be egy Htmlcoin címet, vagy egy fizetési kérelmet"
 
 #: electrum/plugin.py:557
 msgid "Please select which {} device to use:"
@@ -3897,8 +3897,8 @@ msgid "Settings"
 msgstr "Beállítások"
 
 #: electrum/gui/kivy/uix/screens.py:394
-msgid "Share Bitcoin Request"
-msgstr "Bitcoin kérelem megosztása"
+msgid "Share Htmlcoin Request"
+msgstr "Htmlcoin kérelem megosztása"
 
 #: electrum/gui/kivy/uix/screens.py:277
 msgid "Should this transaction be replaceable?"
@@ -4082,7 +4082,7 @@ msgid "Start"
 msgstr "Kezdet"
 
 #: electrum/gui/qt/main_window.py:659
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Htmlcoin system."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2870
@@ -4165,8 +4165,8 @@ msgid "Testnet coins are worthless."
 msgstr "A Testnet-en lévő Bitcoinok értéktelenek."
 
 #: electrum/gui/qt/main_window.py:485
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "A Testnet egy külön Bitcoin hálózat, amit tesztelésre használnak."
+msgid "Testnet is separate from the main Htmlcoin network. It is used for testing."
+msgstr "A Testnet egy külön Htmlcoin hálózat, amit tesztelésre használnak."
 
 #: electrum/gui/qt/util.py:662
 msgid "Text copied to clipboard"
@@ -4207,7 +4207,7 @@ msgstr "Az összeg piros színű lesz, ha nincs elég pénz a pénztárcában."
 
 #: electrum/gui/qt/main_window.py:938
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "A kérelemhez tartozó Bitcoin cím soha nem jár le, mindig is része marad ennek a pénztárcának."
+msgstr "A kérelemhez tartozó Htmlcoin cím soha nem jár le, mindig is része marad ennek a pénztárcának."
 
 #: electrum/gui/qt/main_window.py:1191
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -5180,8 +5180,8 @@ msgid "You may also save unsigned requests or contact addresses using the save b
 msgstr "Elmenthetsz aláíratlan számlákat vagy névjegy címeket a mentés gombbal."
 
 #: electrum/gui/qt/main_window.py:1180
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Írj be egy Bitcoin címet, egy címkét a névjegyekből (kitöltést segítő ajánlások jelennek meg), vagy egy álnevet (e-mailhez hasonló cím, ami egyenesen az címzett Bitcoin címére továbbít)"
+msgid "You may enter a Htmlcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Htmlcoin address)"
+msgstr "Írj be egy Htmlcoin címet, egy címkét a névjegyekből (kitöltést segítő ajánlások jelennek meg), vagy egy álnevet (e-mailhez hasonló cím, ami egyenesen az címzett Htmlcoin címére továbbít)"
 
 #: electrum/base_wizard.py:435
 msgid "You may extend your seed with custom words."

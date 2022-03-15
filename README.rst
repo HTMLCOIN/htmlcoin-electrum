@@ -5,7 +5,7 @@ Htmlcoin Electrum is a lightweight Htmlcoin wallet forked from `Electrum <https:
 
 ::
 
-  Licence: MIT Licence
+  License: MIT License
   Language: Python (>= 3.6)
 
 

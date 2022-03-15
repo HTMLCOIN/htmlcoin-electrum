@@ -534,20 +534,20 @@ msgid "Bit rate [kbps]: "
 msgstr "Bit rate [kbps]: "
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:71
-msgid "Bitcoin Address"
-msgstr "Adres Bitcoin"
+msgid "Htmlcoin Address"
+msgstr "Adres Htmlcoin"
 
 #: electrum/gui/qt/main_window.py:1630
-msgid "Bitcoin Address is None"
+msgid "Htmlcoin Address is None"
 msgstr "Nie podano adresu"
 
 #: electrum/gui/qt/main_window.py:906
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Adres Bitcoin, na który płatność powinna zostać otrzymana. Zauważ, że każda prośba o płatność używa innego adresu Bitcoin."
+msgid "Htmlcoin address where the payment should be received. Note that each payment request uses a different Htmlcoin address."
+msgstr "Adres Htmlcoin, na który płatność powinna zostać otrzymana. Zauważ, że każda prośba o płatność używa innego adresu Htmlcoin."
 
 #: electrum/gui/qt/main_window.py:1226
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Transakcje Bitcoin generalnie nie są darmowe. Prowizję od transakcji pokrywa nadawca."
+msgid "Htmlcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transakcje Htmlcoin generalnie nie są darmowe. Prowizję od transakcji pokrywa nadawca."
 
 #: electrum/gui/qt/network_dialog.py:321
 #: electrum/gui/kivy/uix/ui_screens/network.kv:47
@@ -1241,8 +1241,8 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Błąd komunikacji urządzenia. Odłącz i podłącz swój Digital Bitbox."
 
 #: electrum/plugins/ledger/ledger.py:205
-msgid "Device not in Bitcoin mode"
-msgstr "Urządzenie nie jest w trybie Bitcoin"
+msgid "Device not in Htmlcoin mode"
+msgstr "Urządzenie nie jest w trybie Htmlcoin"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
@@ -1427,8 +1427,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum nie był w stanie wyprodukować eksportu transakcji."
 
 #: electrum/gui/qt/main_window.py:656
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
-msgstr "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Htmlcoin."
+msgstr "Electrum's focus is speed, with low resource usage and simplifying Htmlcoin."
 
 #: electrum/plugins/email_requests/__init__.py:3
 msgid "Email"
@@ -1555,7 +1555,7 @@ msgid "Enter a label to name your device:"
 msgstr ""
 
 #: electrum/base_wizard.py:207
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Htmlcoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1971
@@ -1796,8 +1796,8 @@ msgid "Expired"
 msgstr "Wygasło"
 
 #: electrum/gui/qt/main_window.py:937
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Wygasłe żądania muszą zostać usunięte ręcznie z listy, aby zwolnić odpowiednie adresy Bitcoin."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Htmlcoin addresses."
+msgstr "Wygasłe żądania muszą zostać usunięte ręcznie z listy, aby zwolnić odpowiednie adresy Htmlcoin."
 
 #: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2034
 msgid "Expires"
@@ -1923,8 +1923,8 @@ msgid "Firmware Version"
 msgstr "Wersja oprogramowania"
 
 #: electrum/plugins/ledger/ledger.py:39
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Wersja oprogramowania (lub aplikacji \"Bitcoin\") zbyt stara aby wspiera Segwit. Wgraj nową wersję na"
+msgid "Firmware version (or \"Htmlcoin\" app) too old for Segwit support. Please update at"
+msgstr "Wersja oprogramowania (lub aplikacji \"Htmlcoin\") zbyt stara aby wspiera Segwit. Wgraj nową wersję na"
 
 #: electrum/plugins/trezor/qt.py:289
 msgid "Firmware version too old."
@@ -2215,11 +2215,11 @@ msgid "Import"
 msgstr "Importuj"
 
 #: electrum/base_wizard.py:206
-msgid "Import Bitcoin Addresses"
+msgid "Import Htmlcoin Addresses"
 msgstr ""
 
 #: electrum/base_wizard.py:134
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Htmlcoin addresses or private keys"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:577 electrum/gui/qt/main_window.py:2790
@@ -2355,16 +2355,16 @@ msgstr "Nieprawidłowa kwota"
 
 #: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1633
 #: electrum/gui/kivy/uix/screens.py:265
-msgid "Invalid Bitcoin Address"
-msgstr "Nieprawidłowy adres Bitcoin"
+msgid "Invalid Htmlcoin Address"
+msgstr "Nieprawidłowy adres Htmlcoin"
 
 #: electrum/gui/text.py:342 electrum/gui/stdio.py:173
-msgid "Invalid Bitcoin address"
+msgid "Invalid Htmlcoin address"
 msgstr ""
 
 #: electrum/wallet.py:1254 electrum/gui/qt/main_window.py:2344
 #: electrum/gui/qt/main_window.py:2372
-msgid "Invalid Bitcoin address."
+msgid "Invalid Htmlcoin address."
 msgstr ""
 
 #: electrum/gui/text.py:352 electrum/gui/stdio.py:183
@@ -2533,7 +2533,7 @@ msgid "Library version for '{}' is incompatible."
 msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:19
-msgid "Licence"
+msgid "License"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:3017
@@ -3226,7 +3226,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr ""
 
 #: electrum/gui/kivy/uix/screens.py:262
-msgid "Please scan a Bitcoin address or a payment request"
+msgid "Please scan a Htmlcoin address or a payment request"
 msgstr ""
 
 #: electrum/plugin.py:557
@@ -3891,7 +3891,7 @@ msgid "Settings"
 msgstr "Ustawienia"
 
 #: electrum/gui/kivy/uix/screens.py:394
-msgid "Share Bitcoin Request"
+msgid "Share Htmlcoin Request"
 msgstr ""
 
 #: electrum/gui/kivy/uix/screens.py:277
@@ -4076,8 +4076,8 @@ msgid "Start"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:659
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
-msgstr "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Htmlcoin system."
+msgstr "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Htmlcoin system."
 
 #: electrum/gui/qt/main_window.py:2870
 msgid "Static"
@@ -4159,7 +4159,7 @@ msgid "Testnet coins are worthless."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:485
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgid "Testnet is separate from the main Htmlcoin network. It is used for testing."
 msgstr ""
 
 #: electrum/gui/qt/util.py:662
@@ -5171,8 +5171,8 @@ msgid "You may also save unsigned requests or contact addresses using the save b
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1180
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Możesz wpisać adres Bitcoin, etykietę z listy kontaktów (wyświetli się lista z podpowiedziami) lub alias (adres w stylu e-mail, który wskazuje na adres Bitcoin)"
+msgid "You may enter a Htmlcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Htmlcoin address)"
+msgstr "Możesz wpisać adres Htmlcoin, etykietę z listy kontaktów (wyświetli się lista z podpowiedziami) lub alias (adres w stylu e-mail, który wskazuje na adres Htmlcoin)"
 
 #: electrum/base_wizard.py:435
 msgid "You may extend your seed with custom words."
