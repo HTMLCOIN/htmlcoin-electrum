@@ -34,7 +34,7 @@ msgid "&Addresses"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:780
-msgid "&Htmlcoin Paper"
+msgid "&Bitcoin Paper"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:775
@@ -673,15 +673,15 @@ msgid "BitBox02 Status"
 msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:95
-msgid "Htmlcoin Address"
+msgid "Bitcoin Address"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1525
-msgid "Htmlcoin Address is None"
+msgid "Bitcoin Address is None"
 msgstr ""
 
 #: electrum/gui/qt/confirm_tx_dialog.py:147
-msgid "Htmlcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr ""
 
 #: electrum/gui/qt/locktimeedit.py:36
@@ -1694,7 +1694,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:230
-msgid "Device not in Htmlcoin mode"
+msgid "Device not in Bitcoin mode"
 msgstr ""
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1890,7 +1890,7 @@ msgid "Electrum will now exit."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:798
-msgid "Electrum's focus is speed, with low resource usage and simplifying Htmlcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
 msgstr ""
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -2040,7 +2040,7 @@ msgid "Enter a label to name your device:"
 msgstr ""
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Htmlcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2115
@@ -2455,7 +2455,7 @@ msgid "Firmware Version"
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:45
-msgid "Firmware version (or \"Htmlcoin\" app) too old for Segwit support. Please update at"
+msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
 msgstr ""
 
 #: electrum/plugins/trezor/qt.py:425
@@ -2845,11 +2845,11 @@ msgid "Import"
 msgstr ""
 
 #: electrum/base_wizard.py:229
-msgid "Import Htmlcoin Addresses"
+msgid "Import Bitcoin Addresses"
 msgstr ""
 
 #: electrum/base_wizard.py:150
-msgid "Import Htmlcoin addresses or private keys"
+msgid "Import Bitcoin addresses or private keys"
 msgstr ""
 
 #: electrum/gui/kivy/main_window.py:1414
@@ -3002,16 +3002,16 @@ msgstr ""
 
 #: electrum/plugins/hw_wallet/plugin.py:128
 #: electrum/gui/kivy/uix/screens.py:322
-msgid "Invalid Htmlcoin Address"
+msgid "Invalid Bitcoin Address"
 msgstr ""
 
 #: electrum/gui/text.py:353 electrum/gui/stdio.py:176
-msgid "Invalid Htmlcoin address"
+msgid "Invalid Bitcoin address"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2671 electrum/gui/qt/main_window.py:2699
 #: electrum/wallet.py:2318
-msgid "Invalid Htmlcoin address."
+msgid "Invalid Bitcoin address."
 msgstr ""
 
 #: electrum/gui/text.py:363 electrum/gui/stdio.py:186
@@ -3214,7 +3214,7 @@ msgid "Library version for '{}' is incompatible."
 msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:19
-msgid "License"
+msgid "Licence"
 msgstr ""
 
 #: electrum/gui/qt/settings_dialog.py:255
@@ -4191,7 +4191,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr ""
 
 #: electrum/gui/kivy/uix/screens.py:300
-msgid "Please scan a Htmlcoin address or a payment request"
+msgid "Please scan a Bitcoin address or a payment request"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:621
@@ -5008,7 +5008,7 @@ msgid "Share"
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:134
-msgid "Share Htmlcoin Request"
+msgid "Share Bitcoin Request"
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
@@ -5213,7 +5213,7 @@ msgid "Standard wallet"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:801
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Htmlcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:173
@@ -5331,7 +5331,7 @@ msgid "Testnet coins are worthless."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:584
-msgid "Testnet is separate from the main Htmlcoin network. It is used for testing."
+msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
 msgstr ""
 
 #: electrum/gui/qt/qrcodewidget.py:148 electrum/gui/qt/main_window.py:1299
@@ -6563,7 +6563,7 @@ msgid "You have {n} open channels."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1366
-msgid "You may enter a Htmlcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Htmlcoin address)"
+msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
 msgstr ""
 
 #: electrum/base_wizard.py:497
@@ -7073,3 +7073,4 @@ msgstr ""
 #: electrum/plugins/keepkey/qt.py:245
 msgid "{} words"
 msgstr ""
+

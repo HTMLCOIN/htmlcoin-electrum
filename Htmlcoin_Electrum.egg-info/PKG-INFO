@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Htmlcoin-Electrum
+Version: 4.0.16
+Summary: Lightweight Htmlcoin Wallet
+Home-page: https://htmlcoin.com
+Author: Htmlcoin
+Author-email: dev@htmlcoin.team
+License: MIT License
+Description: Lightweight Htmlcoin Wallet
+Platform: UNKNOWN
+Requires-Python: >=3.6.1
+Provides-Extra: hardware
+Provides-Extra: gui
+Provides-Extra: crypto
+Provides-Extra: tests
+Provides-Extra: full
+Provides-Extra: fast
