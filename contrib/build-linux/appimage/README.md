@@ -39,9 +39,9 @@ see [issue #5159](https://github.com/spesmilo/electrum/issues/5159).
     ```
     $ sudo docker run -it \
         --name htmlcoin-electrum-appimage-builder-cont \
-        -v $PWD:/opt/electrum \
+        -v $PWD:/opt/htmlcoin-electrum \
         --rm \
-        --workdir /opt/electrum/contrib/build-linux/appimage \
+        --workdir /opt/htmlcoin-electrum/contrib/build-linux/appimage \
         htmlcoin-electrum-appimage-builder-img \
         ./build.sh
     ```
