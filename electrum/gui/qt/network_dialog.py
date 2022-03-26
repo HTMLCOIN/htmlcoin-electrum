@@ -286,8 +286,8 @@ class NetworkChoiceLayout(object):
         self.autoconnect_cb.clicked.connect(self.set_server)
         self.autoconnect_cb.clicked.connect(self.update)
         msg = ' '.join([
-            _("If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain."),
-            _("If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging.")
+            _("If auto-connect is enabled, Htmlcoin Electrum will always use a server that is on the longest blockchain."),
+            _("If it is disabled, you have to choose a server you want to use. Htmlcoin Electrum will warn you if your server is lagging.")
         ])
         grid.addWidget(self.autoconnect_cb, 1, 0, 1, 3)
         grid.addWidget(HelpButton(msg), 1, 4)
@@ -295,7 +295,7 @@ class NetworkChoiceLayout(object):
         self.server_e = QLineEdit()
         self.server_e.setFixedWidth(fixed_width_hostname + fixed_width_port)
         self.server_e.editingFinished.connect(self.set_server)
-        msg = _("Electrum sends your wallet addresses to a single server, in order to receive your transaction history.")
+        msg = _("Htmlcoin Electrum sends your wallet addresses to a single server, in order to receive your transaction history.")
         grid.addWidget(QLabel(_('Server') + ':'), 2, 0)
         grid.addWidget(self.server_e, 2, 1, 1, 3)
         grid.addWidget(HelpButton(msg), 2, 4)
