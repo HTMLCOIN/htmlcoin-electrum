@@ -443,8 +443,8 @@ msgid "Amount received in channels"
 msgstr "Сума, отримана в каналах"
 
 #: electrum/gui/qt/transaction_dialog.py:507
-msgid "Amount received:"
-msgstr "Отримана сума:"
+msgid "Amount received:\n"
+msgstr "Отримана сума:\n"
 
 #: electrum/gui/qt/transaction_dialog.py:509
 msgid "Amount sent:"

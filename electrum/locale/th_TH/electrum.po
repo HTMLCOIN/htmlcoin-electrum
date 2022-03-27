@@ -1049,8 +1049,8 @@ msgid "Choose coin (UTXO) selection method.  The following are available:\n\n"
 msgstr "เลือกเหรียญ (UTXO) วิธีการเลือก. มีดังต่อไปนี้:\n\n"
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:30
-msgid "Choose from peers"
-msgstr "เลือกจาก peers"
+msgid "Choose from peers:\n"
+msgstr "เลือกจาก peers:\n"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:245
 msgid "Choose how to initialize your Digital Bitbox:"
