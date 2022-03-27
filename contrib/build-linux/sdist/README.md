@@ -43,9 +43,9 @@ folder.
     $ git checkout $REV
     $ sudo docker run -it \
         --name electrum-sdist-builder-cont \
-        -v $PWD:/opt/electrum \
+        -v $PWD:/opt/htmlcoin-electrum \
         --rm \
-        --workdir /opt/electrum/contrib/build-linux/sdist \
+        --workdir /opt/htmlcoin-electrum/contrib/build-linux/sdist \
         electrum-sdist-builder-img \
         ./build.sh
     ```
